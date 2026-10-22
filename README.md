@@ -20,8 +20,8 @@ Your goal: survive as many waves as you can and set a new high score.
 
 | Action | Key |
 | ------ | --- |
-| Move left / right | Left and Right arrow keys |
-| Move up / down | Up and Down arrow keys |
+| Move left / right | Left and Right arrow keys, or A and D |
+| Move up / down | Up and Down arrow keys, or W and S |
 | Fire | Spacebar |
 | Quit | Q |
 
@@ -43,6 +43,7 @@ This project follows the Alien Invasion project from *Python Crash Course* by Er
 
 - **Custom ship designs.** I replaced the default images with ships I designed from scratch. I planned and brainstormed them, built them as vector art in Adobe Illustrator, refined them, resized them, and exported them as PNGs for the game.
 - **Four-direction movement.** The book's ship only moves left and right. I extended the movement logic so the ship can also move up and down.
+- **Left-handed pilot support.** I added WASD controls alongside the arrow keys, because defending Earth should not depend on which hand you write with.
 - **Scalable space background.** I added a background that crops to the window instead of stretching, which meant removing the old background fill from the scoreboard text so it stayed readable and clean. The background is a nod to one of my favorite cartoons, *Regular Show*.
 - **Rebalanced difficulty.** I slowed the game down, though not by much, so players can last longer and chase a higher score.
 - **More breathing room.** I removed one row from the starting alien fleet to give the player more space to maneuver.
